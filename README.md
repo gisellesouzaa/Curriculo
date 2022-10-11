@@ -5,7 +5,7 @@
 ---
 
 <h1 align="center">
-  <img alt="Imagem do projeto" src="paginaCurriculo.png" />
+  <img alt="Imagem do projeto" src="./img/paginaCurriculo.jpg" />
 </h1>
 
 ---

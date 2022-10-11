@@ -9,7 +9,12 @@
 body {
     background: #011d49;
     background: -webkit-linear-gradient(to bottom, #69e9ff, #036dab, #011d49); 
-    background: linear-gradient(to bottom,  #69e9ff, #036dab 20%, #011d49 80%); 
+    background: linear-gradient(to bottom,  #69e9ff, #036dab 20%, #011d49 80%);    
+}
+
+body a {
+    text-decoration: none; 
+    color: inherit
 }
 
 .resume-contents {
@@ -17,11 +22,12 @@ body {
     width: 80%;
     margin: 2rem auto;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    
 }
 
 .left-section {
-    grid-column: span 2;
+    grid-column: span 3;
     height: 100%;
     background-color: #000a1adc;
 }
@@ -31,6 +37,7 @@ body {
     height: 100%;
     background-color: #caf0f8;
     border-radius: 0px 60px 0px 0px;
+    
 }
 
 .left-section-content{
@@ -140,7 +147,6 @@ body {
     font-size: 16px;
     color: #d6dbdfaf;
     letter-spacing: 1px;
-    /* text-transform: uppercase; */
     padding-bottom: .4rem;
 }
 
@@ -183,9 +189,8 @@ body {
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 1px;
     color: #02255c;
     padding-bottom: .4rem;
@@ -197,17 +202,40 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
+    
 }
+
+.course {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #02255c;
+    padding-bottom: .4rem;
+    border-left: 3px solid #4f0071;
+    text-indent: 20px;
+}
+
+.school {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    border-left: 3px solid #4f0071;
+    text-indent: 20px;
+}
+
 
 .exp-position,
 .education-subject,
 .awards-name {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 1px;
     color: #011d49;
     padding-bottom: .4rem;
+    border-left: 3px solid #ca8ac9;
+    text-indent: 10px;
+
+    
 }
 
 .exp-desc,
